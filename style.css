@@ -52,6 +52,7 @@ main {
     border-radius: 30px;
     box-shadow: 10px 10px 50px black;
     min-width: 320px;
+    flex-direction: initial;
 }
 
 main > h2 {
@@ -87,6 +88,11 @@ main > h3 > p {
 
 main > h3 > p > a:hover {
     color: #35A7FF;
+}
+
+.conteudar {
+    flex-direction: column;
+
 }
 
 /* Ajustes para telas menores que 768px (tablets e smartphones) */
