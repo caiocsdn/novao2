@@ -7,6 +7,7 @@ body {
     background-color: #ddd2c1;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 700;
     font-style: normal;
+    min-width: 320px;
 }
 
 ul {
@@ -30,6 +32,7 @@ ul {
     font-size: 22px;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 600;
+    min-width: 320px;
 }
 
 a {
@@ -49,6 +52,7 @@ main {
     transform: translate(90px, 100px);
     border-radius: 30px;
     box-shadow: 10px 10px 50px black;
+    min-width: 320px;
 }
 
 main > h2 {
@@ -63,6 +67,7 @@ main > h2 {
     transform: translate(290px, 20px);
     font-size: 32px;
     padding-top: 20px;
+    min-width: 320px;
 }
 
 html {
@@ -78,6 +83,7 @@ img {
 main > h3 > p {
     text-align: justify;
     transform: translate(-380px, 100px);
+    min-width: 320px;
 }
 
 main > h3 > p > a:hover {

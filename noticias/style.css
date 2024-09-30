@@ -15,11 +15,13 @@ body {
 h1 {
     font-size: 45px;
     padding-left: 30px;
+    min-width: 320px;
 }
 
 h2 {
     text-align: justify;
     padding-left: 30px;
+    min-width: 320px;
 }
 
 img {
@@ -33,34 +35,40 @@ img {
     font-size: 20px;
     color: #8C8C8C;
     font-weight: lighter;
+    min-width: 320px;
 
 }
 
 .span {
     color: black;
     text-decoration: underline;
+    min-width: 320px;
 }
 
 .bomba > p {
     text-align: justify;
     font-size: 22px;
-    transform: translate(140px, 0px)
+    transform: translate(140px, 0px);
+    min-width: 320px;
 }
 
 .gabriel {
     width: 1000px;
     height: 400px;
-    transform: translate(140px, 0px)
+    transform: translate(140px, 0px);
+    min-width: 320px;
 }
 
 .rifudo {
     font-size: 10px;
-    transform: translate(150px, 0px)
+    transform: translate(150px, 0px);
+    min-width: 320px;
 }
 
 .rifudo2 {
     font-size: 10px;
-    transform: translate(400px, 0px)
+    transform: translate(400px, 0px);
+    min-width: 320px;
     
 }
 
@@ -68,4 +76,5 @@ img {
     background-color: #0C6291;
     width: 2000px;
     height: 100px;
+    min-width: 320px;
 }
